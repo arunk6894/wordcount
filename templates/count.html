@@ -1,0 +1,12 @@
+<h1>Result Page</h1>
+<h2>Your text</h2>
+
+{{mess}}
+<h1>This text contains {{length}} words. </h1>
+<b>All words Count</b>
+
+<ol type = "1">
+    {% for key, value in count_of_words.items %}
+        <li>{{key}}: {{value}}</li>
+    {% endfor %}
+</ol>
